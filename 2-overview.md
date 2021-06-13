@@ -1,5 +1,7 @@
 # Structure
 
+**Note**: The below example uses Vue 2 and VueX 3 file structure and syntax but the principles are the focus here
+
 ## src / store / store.js or index.js
 
 1. Import Vue & VueX
@@ -29,6 +31,6 @@ The component calls a function that passes in the user input, **dispatching** th
 
 ## Store Modules
 
-Data stores for different parts of an application can be split into modules and pulled into main `store.js`. Each module has **state**, **mutations**, **actions**, **getters** and **setters**
+Data stores for different parts of an application can be split into modules and pulled into main `store.js`. Each module has **state**, **mutations**, **actions** and **getters**.
 
 ![Screenshot from 2021-05-21 13-07-22](https://user-images.githubusercontent.com/73107656/119134787-7db55180-ba35-11eb-9ecf-f01dccaf2537.png)

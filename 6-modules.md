@@ -1,5 +1,7 @@
 ## Modules
 
+**Note**: The example below is Vue 3 + VueX 4
+
 Using modules is the best practice even for small applications as this puts the provisions in place to manage highly scalable growth moving forward.
 
 To do this the main entry point: `store / index.js` is used to pull all modules in and make them accessible to the application:
